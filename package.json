@@ -1,0 +1,33 @@
+{
+  "name": "liveuniversity",
+  "version": "1.0.0",
+  "description": "Repositório para a primeira etapa do processo de seleção Live University",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "production": "pm2 start index.js --name liveuniversity && pm2 monit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souzajr/liveuniversity.git"
+  },
+  "keywords": [
+    "Live University",
+    "Node.JS",
+    "EJS"
+  ],
+  "author": "Roberto Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/souzajr/liveuniversity/issues"
+  },
+  "homepage": "https://github.com/souzajr/liveuniversity#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "pm2": "^3.4.0"
+  }
+}

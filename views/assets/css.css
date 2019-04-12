@@ -1,0 +1,126 @@
+html, body {
+    font-family: "Lato", sans-serif;
+    background: #e7e6e6;
+}
+
+.footer {
+    position: fixed;
+    left: 205px;
+    bottom: 5px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #bfbfbf;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav button {
+    margin-top: 10px;
+    padding: 15px 32px;
+    font-size: 25px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    background-color: #afabab;
+    border: none;
+    text-decoration: none;
+    margin-left: auto;
+    display: block;
+}
+
+.quantity {
+    margin-top: 10px;
+    padding: 15px 0px;
+    font-size: 25px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    background-color: #afabab;
+    border: none;
+    text-decoration: none;
+    margin-left: auto;
+    display: block;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    top: 0;
+    left: 200px;
+    position: fixed;
+    align-items: flex-start;
+    justify-content: center;
+    overflow-x: hidden;
+    background-color: #afabab;
+    display: flex;
+    transition: .7s;
+}
+
+.sidebar.is-closed {
+    -webkit-transform: translateX(-16em);
+    transform: translateX(-16em);
+}
+
+.select {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.main {
+    margin-left: 200px;
+    font-size: 28px;
+    padding: 0px 35px;
+}
+
+.container {
+    height: 100px;
+    width: 100%;
+    text-align: center; 
+    display: flex;
+    background-color: #afabab;
+    margin-top: 20px;
+}
+
+.item {
+    margin: auto;
+}
+
+.circle {
+    margin-top: 15px;
+    margin-left: 15px;
+    float:left;
+    height: 70px;
+    width: 70px;
+    background-color: #d0cece;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination {
+    display: none;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.prev {
+    font-size: 35px;
+    border: none;
+    background: #e7e6e6;
+}
+
+.next {
+    font-size: 35px;
+    border: none;
+    background: #e7e6e6;
+}
