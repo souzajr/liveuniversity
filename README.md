@@ -1,7 +1,7 @@
 ## liveuniversity
 
 Repositório para a primeira etapa do processo de seleção Live University
-Demonstração:
+Demonstração: https://github.com/souzajr/liveuniversity
 
 ## Configuração e instalação 
 
